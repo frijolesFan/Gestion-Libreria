@@ -11,7 +11,9 @@ El programa es un sistema de gestión de librería, este permite el uso de usuar
 El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingreso como un invitado. De aquí el programa deriva en los siguientes caminos:
 
 1. Inicio de sesión: Si se inicia sesión correctamente, el programa muestra las siguientes opciones
+   
     1.1- Buscar libros: El programa muestra todos los libros disponibles
+   
         I. Buscar libros por nombre
         II. Buscar libros por autor
         III. Ordenar libros alfabeticamente
@@ -26,12 +28,16 @@ El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingr
                 IV.IV.II- Si el libro no está disponible no deja Solicitar
                 IV.IV.III- Si el usuario se encuentra baneado no deja Solicitar
                 IV.IV.IV- Si el usuario tiene 3 libros en posesión no deja Solicitar
+   
     1.2- Mis libros: Muestra los libros tanto en posesion, como solicitados
+   
         I. información del libro en posesión:
             I.I- Si el libro en posesion está expirado y se devuelve, lo libera
             I.II- Si el libro está solicitado y se devuelve, libera la solicitud
             I.III- Si la solicitud del libro fue rechazada, informa del rechazo y libera la solicitud
+   
     1.3.1 (usuarios) / 1.4 (trabajadores). Perfil: Muestra información y opciones del Perfil
+   
         I. Información básica: Nombre de usuario, tipo de usuario, correo y nombre completo
         II. Información completa: Documento, teléfono, dirección, contraseña
         III. Configuración del perfil.
@@ -42,16 +48,22 @@ El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingr
                 III.I.IV- Dirección de vivienda
             III.II- Modificar contraseña
             III.III- Eliminar cuenta
+   
     1.3.2- Solicitudes (solo trabajadores): Muestra las solicitudes enlistadas por páginas
+   
         I. Información de una solicitud:
             I.I- Aceptar solicitud
             I.II- Rechazar solicitud
 
 3. Inicio de sesión (administrador): Permite el uso de funciones de administrador
+   
     2.1- Modificar permisos de usuario
+   
         I. Cambiar usuario a trabajador
         II. Cambiar trabajador a usuario
+   
     2.2- Modificar libros
+   
         I. Agregar libro: Añade un libro al vector de libros
         II. Modificar libro: Modificar información básica de libros
             II.I- Nombre
@@ -61,10 +73,12 @@ El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingr
         III. Dar libro de baja: "Elimina" un libro, mas sin embargo, este se sigue mostrando a los usuarios
         IV. Eliminar libro: Elimina un libro del vector de libros
 
-4. Registro de usuario: Permite registrar un usuario y lo almacena en el vector de usuarios
+5. Registro de usuario: Permite registrar un usuario y lo almacena en el vector de usuarios
 
-5. Ingresar como invitado: Permite Ingresar como invitado, solamente permite
+6. Ingresar como invitado: Permite Ingresar como invitado, solamente permite
+   
     -Buscar libros: El programa muestra todos los libros disponibles
+   
         I. Buscar libros por nombre
         II. Buscar libros por autor
         III. Ordenar libros alfabeticamente
@@ -77,12 +91,9 @@ El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingr
 
 ---
 
-El programa guarda toda la información del programa en la carpeta "data/" en archivos .dat y la lee
-y guarda mediante el codigo data.cpp contenido en esta carpeta.
+El programa guarda toda la información del programa en la carpeta "data/" en archivos .dat y la lee y guarda mediante el codigo data.cpp contenido en esta carpeta.
 
-Cuando el programa inicia, verifica la existencia de los usuarios, libros o solicitudes y segun si
-existe o no, crea los archivos con los datos por defecto del programa o carga los datos guardados en
-los archivos.
+Cuando el programa inicia, verifica la existencia de los usuarios, libros o solicitudes y segun si existe o no, crea los archivos con los datos por defecto del programa o carga los datos guardados en los archivos.
 
 ---
 
