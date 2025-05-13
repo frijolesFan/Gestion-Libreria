@@ -1,16 +1,8 @@
-﻿# Gestion-Libreria
+﻿# Sistema de gestión de librería
 
 IMPORTARTE - Leer los comentarios de cada codigo para entender su funcionalidad, es de uso libre para modificar o redistribuir, agradecería cualquier crédito que pueda obtener por la realización de este proyecto en el que trabajé mucho, funciona perfectamente e implementa todo lo que nos pidió el profesor solo solo para obtener un 8/10 :c
 
-# PAPULIBRERIA (SISTEMA DE GESTIÓN DE LIBRERÍA)
-
-## JUAN CAMILO GUEVARA OSORIO
-
-## PROGRAMACIÓN II
-## CARLOS ALBERTO OCAMPO SEPÚLVEDA
-
-### UNIVERSIDAD TECNOLÓGICA DE PEREIRA
-### 18 DE NOVIEMBRE, 2023
+HECHO POR UAN CAMILO GUEVARA OSORIO PARA LA ASIGNATURA DE PROGRAMACIÓN II CON CARLOS ALBERTO OCAMPO SEPÚLVEDA EN LA UNIVERSIDAD TECNOLÓGICA DE PEREIRA, PRESENTADO EL 18 DE NOVIEMBRE, 2023
 
 ---
 
