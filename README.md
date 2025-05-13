@@ -6,12 +6,9 @@ HECHO POR UAN CAMILO GUEVARA OSORIO PARA LA ASIGNATURA DE PROGRAMACIÓN II CON C
 
 ---
 
-El programa es un sistema de gestión de librería, este permite el uso de usuarios, trabajadores y
-un administrador, los trabajadores tienen todos los permisos de los usuarios, además de poder acceder
-a las solicitudes. El administrador tiene funcionalidades diferentes.
+El programa es un sistema de gestión de librería, este permite el uso de usuarios, trabajadores y un administrador, los trabajadores tienen todos los permisos de los usuarios, además de poder acceder a las solicitudes. El administrador tiene funcionalidades diferentes.
 
-El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingreso como un invitado.
-De aquí el programa deriva en los siguientes caminos:
+El programa inicia con un inicio de sesión, registro de un nuevo usuario o ingreso como un invitado. De aquí el programa deriva en los siguientes caminos:
 
 1. Inicio de sesión: Si se inicia sesión correctamente, el programa muestra las siguientes opciones
     1.1- Buscar libros: El programa muestra todos los libros disponibles
@@ -50,7 +47,7 @@ De aquí el programa deriva en los siguientes caminos:
             I.I- Aceptar solicitud
             I.II- Rechazar solicitud
 
-2. Inicio de sesión (administrador): Permite el uso de funciones de administrador
+3. Inicio de sesión (administrador): Permite el uso de funciones de administrador
     2.1- Modificar permisos de usuario
         I. Cambiar usuario a trabajador
         II. Cambiar trabajador a usuario
@@ -64,9 +61,9 @@ De aquí el programa deriva en los siguientes caminos:
         III. Dar libro de baja: "Elimina" un libro, mas sin embargo, este se sigue mostrando a los usuarios
         IV. Eliminar libro: Elimina un libro del vector de libros
 
-3. Registro de usuario: Permite registrar un usuario y lo almacena en el vector de usuarios
+4. Registro de usuario: Permite registrar un usuario y lo almacena en el vector de usuarios
 
-4. Ingresar como invitado: Permite Ingresar como invitado, solamente permite
+5. Ingresar como invitado: Permite Ingresar como invitado, solamente permite
     -Buscar libros: El programa muestra todos los libros disponibles
         I. Buscar libros por nombre
         II. Buscar libros por autor
